@@ -1,0 +1,71 @@
+{
+    "domains": {
+        "mailicious.com": {
+            "malicious": 1,
+            "suspicious": 0,
+            "harmless": 62,
+            "undetected": 31
+        },
+        "malicious.com": {
+            "malicious": 0,
+            "suspicious": 0,
+            "harmless": 63,
+            "undetected": 31
+        }
+    },
+    "ips": {
+        "185.220.101.70": {
+            "VirusTotal": {
+                "malicious": 11,
+                "suspicious": 3,
+                "harmless": 52,
+                "undetected": 28
+            },
+            "AbuseIPDB": {
+                "abuse_score": 100,
+                "total_reports": 136,
+                "country": "DE"
+            }
+        },
+        "127.0.0.1": {
+            "VirusTotal": {
+                "malicious": 0,
+                "suspicious": 0,
+                "harmless": 62,
+                "undetected": 32
+            },
+            "AbuseIPDB": {
+                "abuse_score": 0,
+                "total_reports": 5904,
+                "country": null
+            }
+        },
+        "8.8.8.8": {
+            "VirusTotal": {
+                "malicious": 0,
+                "suspicious": 0,
+                "harmless": 63,
+                "undetected": 31
+            },
+            "AbuseIPDB": {
+                "abuse_score": 0,
+                "total_reports": 215,
+                "country": "US"
+            }
+        },
+        "178.218.144.99": {
+            "VirusTotal": {
+                "malicious": 7,
+                "suspicious": 3,
+                "harmless": 55,
+                "undetected": 29
+            },
+            "AbuseIPDB": {
+                "abuse_score": 68,
+                "total_reports": 77,
+                "country": "DE"
+            }
+        }
+    },
+    "hashes": {}
+}
